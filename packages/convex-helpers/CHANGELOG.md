@@ -1,10 +1,11 @@
 # Changelog
 
-## next
+## 0.1.116
 
 - `HonoWithConvex` and `HttpRouterWithHono` now accept an optional `Variables`
   type parameter, so consumers using middleware-driven typed context state
   (`c.var` / `c.set` / `c.get`) no longer need to cast their `Hono` app.
+- Support nullable empty schemas in open-api-spec
 
 ## 0.1.115
 
